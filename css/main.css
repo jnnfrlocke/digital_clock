@@ -1,0 +1,21 @@
+body {
+    background: #F7EFC0;
+}
+
+#clock {
+    width: 80%;
+    margin: auto;
+}
+
+.clock_bg {
+    background: #A6A6A8;
+    padding: 10px;
+    text-align: center;
+    /*display: box;*/
+}
+
+h1 {
+    color: #DBF9F4;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
