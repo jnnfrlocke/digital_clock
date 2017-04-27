@@ -1,5 +1,5 @@
 body {
-    background: #F7EFC0;
+    /*background: #F7EFC0;*/
 }
 
 #clock {
@@ -8,7 +8,7 @@ body {
 }
 
 .clock_bg {
-    background: #A6A6A8;
+    /*background: #A6A6A8;*/
     padding: 10px;
     text-align: center;
     /*display: box;*/
@@ -18,4 +18,19 @@ h1 {
     color: #DBF9F4;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
+}
+
+
+/*Day Theme*/
+
+#day_theme body {
+    background: #F7EFC0;
+}
+
+#day_theme .clock_bg {
+    background: #A6A6A8;
+}
+
+#day_theme h1 {
+    color: #DBF9F4;
 }
