@@ -1,7 +1,3 @@
-body {
-    /*background: #F7EFC0;*/
-}
-
 #clock {
     width: 80%;
     margin: auto;
@@ -15,7 +11,7 @@ body {
 }
 
 h1 {
-    color: #DBF9F4;
+    /*color: #DBF9F4;*/
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
 }
@@ -23,8 +19,8 @@ h1 {
 
 /*Day Theme*/
 
-#day_theme body {
-    background: #F7EFC0;
+#day_theme {
+    background-color: #F7EFC0;
 }
 
 #day_theme .clock_bg {
@@ -33,4 +29,19 @@ h1 {
 
 #day_theme h1 {
     color: #DBF9F4;
+}
+
+
+/*Night Theme*/
+
+#night_theme {
+    background: #474448;
+}
+
+#night_theme .clock_bg {
+    background: #D8CBC7;
+}
+
+#night_theme h1 {
+    color: #2D232E;
 }
