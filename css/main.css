@@ -64,3 +64,12 @@ button:hover {
 .night_theme h1 {
     color: #2D232E;
 }
+
+
+/*icon*/
+
+#icon {
+    display: block;
+    width: 50px;
+    margin: 10px auto 10px auto;
+}
