@@ -17,37 +17,42 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 </head>
 
-<body id="day_theme">
+<body class="day_theme">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
-    <div>
-        <section>
 
-            <div class="w3-cell-row clock_bg" id="clock">
-                <div class="w3-cell w3-cell-middle ">
-                    <h1>Hours</h1>
-                </div>
-                <div class="w3-cell w3-cell-middle ">
-                    <h1>:</h1>
-                </div>
-                <div class="w3-cell w3-cell-middle ">
-                    <h1>Minutes</h1>
-                </div>
-                <div class="w3-cell w3-cell-middle ">
-                    <h1>:</h1>
-                </div>
-                <div class="w3-cell w3-cell-middle ">
-                    <h1>Seconds</h1>
-                </div>
+    <section>
+
+        <div class="w3-cell-row clock_bg" id="clock">
+            <div class="w3-cell w3-cell-middle" id="hours">
+                <h1>Hours</h1>
             </div>
+            <div class="w3-cell w3-cell-middle ">
+                <h1>:</h1>
+            </div>
+            <div class="w3-cell w3-cell-middle " id="minutes">
+                <h1>Minutes</h1>
+            </div>
+            <div class="w3-cell w3-cell-middle ">
+                <h1>:</h1>
+            </div>
+            <div class="w3-cell w3-cell-middle " id="seconds">
+                <h1>Seconds</h1>
+            </div>
+        </div>
+        <div class="theme_btn ">
+            <button class="w3-circle w3-border "><p>Switch Theme</p></button>
 
-        </section>
-    </div>
+        </div>
+    </section>
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+    <script type="text/javascript " src="js/clock.js "></script>
 </body>
 
 </html>

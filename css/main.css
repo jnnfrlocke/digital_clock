@@ -16,32 +16,51 @@ h1 {
     font-weight: bold;
 }
 
+button {
+    margin: 10px 0 0 0;
+    width: 200px;
+    outline: none;
+    background: #D9D7DD;
+    /*text-align: center;*/
+}
+
+button:hover {
+    cursor: pointer;
+    background: #E6FDFF;
+}
+
+.theme_btn {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
 
 /*Day Theme*/
 
-#day_theme {
+.day_theme {
     background-color: #F7EFC0;
 }
 
-#day_theme .clock_bg {
+.day_theme .clock_bg {
     background: #A6A6A8;
 }
 
-#day_theme h1 {
+.day_theme h1 {
     color: #DBF9F4;
 }
 
 
 /*Night Theme*/
 
-#night_theme {
+.night_theme {
     background: #474448;
 }
 
-#night_theme .clock_bg {
+.night_theme .clock_bg {
     background: #D8CBC7;
 }
 
-#night_theme h1 {
+.night_theme h1 {
     color: #2D232E;
 }
