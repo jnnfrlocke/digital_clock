@@ -13,6 +13,7 @@ This website will work best when displayed on a desktop computer in a modern HTM
 * [Trello](https://trello.com/b/enVrt4gv/digital-clock) - Agile Scrum Workflow Management
 * [GitHub](https://github.com/jnnfrlocke/digital_clock) - Source Code Management
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE
+* [AWS](https://s3.amazonaws.com/cnramp-digital-clock/index.html) - Hosting
 
 ## Contributing
 
