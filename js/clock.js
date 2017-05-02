@@ -1,15 +1,18 @@
 // Theme variable
 var themeSwitcher = 'automatic';
 
-// Theme Switcher
+// Manual Theme Switcher 
 $('button').click(function() {
     themeSwitcher = 'manual';
-    var thisButton = $(this);
+    // var thisButton = $(this);
+    // Activate Night Theme
     if ($('body').hasClass('day_theme')) {
         $('body').removeClass('day_theme');
         $('body').addClass('night_theme');
         $("#icon").attr("src", "images/mark-as-favourite-star.png");
-    } else {
+    }
+    // Activate Day Theme
+    else {
         $('body').removeClass('night_theme');
         $('body').addClass('day_theme');
         $("#icon").attr("src", "images/shining-sun.png");
@@ -50,7 +53,7 @@ function clock() {
     $('#seconds h1').text(seconds);
 
     // Automate theme based on time of day
-    if (hours < 5 || hours > 19 && themeSwitcher == 'automatic') {
+    if ((hours < 5 || hours > 19) && themeSwitcher == 'automatic') {
         $('body').removeClass('day_theme');
         $('body').addClass('night_theme');
         $("#icon").attr("src", "images/mark-as-favourite-star.png")
