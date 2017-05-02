@@ -1,11 +1,12 @@
 #clock {
     width: 80%;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .clock_bg {
     padding: 10px;
     text-align: center;
+    border-radius: 12px;
 }
 
 h1 {
