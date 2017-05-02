@@ -50,7 +50,7 @@ function clock() {
     $('#seconds h1').text(seconds);
 
     // Automate theme based on time of day
-    if (hours > 5 && hours < 19 && themeSwitcher == 'automatic') {
+    if (hours < 5 || hours > 19 && themeSwitcher == 'automatic') {
         $('body').removeClass('day_theme');
         $('body').addClass('night_theme');
         $("#icon").attr("src", "images/mark-as-favourite-star.png")
